@@ -1,0 +1,48 @@
+* {
+	text-align: center;
+	font-family: Cartoon;
+	font-size: 30;
+}
+
+h1 {
+	font-size: 60;
+}
+
+input[type=text] {
+	width: 50px;
+}
+
+@font-face {
+	font-family: Cartoon;
+	src: url(Cartoon_Regular.ttf);
+}
+
+a {
+	line-height: 150px;
+	font-size: 45;
+	font-color: black;
+}
+
+#new_game {
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #616B9F;
+    height: 170px;
+}
+
+#correct_letters {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-size: 5px;
+	border-style: solid;
+	border-color: black;
+	width: 450px;
+	height: 200px;
+	background-color: white;
+}
+
+#letters {
+	padding-top: 45px;
+}

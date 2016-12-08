@@ -1,0 +1,21 @@
+<h1>Hangman!</h1>
+
+<div id="correct_letters">
+<p id="letters"><%= correct_letters %></p>
+</div>
+
+<div id="remaining_guesses">
+<p><%= remaining_guesses %> guesses remaining</p>
+</div>
+
+<div id="form">
+    <form method="POST" action="/">
+  	  <input type="text" id="user_guess" name="user_guess" maxlength="1" cols="1"/>
+  	  <input type='submit' value='Guess!' />
+  	</form>
+</div>
+
+<p>Remaining Letters:</p>
+<div id="remaining_letters">
+<%= remaining_letters %>
+</div>
